@@ -24,8 +24,6 @@ function modalAction(node: HTMLElement) {
   // for accessibility
   if (document.body.style.overflowY !== 'hidden') {
     const originalOverflowY = document.body.style.overflowY;
-    const originalTop = window.pageYOffset;
-    const originalScrollBarGutter = document.body.style.scrollbarGutter;
     document.body.style.overflowY = 'hidden';
     returnFn.push(() => {
       document.body.style.overflowY = originalOverflowY
