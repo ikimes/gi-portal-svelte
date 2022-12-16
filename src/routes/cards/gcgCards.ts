@@ -1,4 +1,4 @@
-// typing will be done later
+// typing will be done later - need better data
 export default [
   {
     "id": 1103,
