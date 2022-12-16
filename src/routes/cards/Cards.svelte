@@ -26,7 +26,7 @@
     <div slot="content" let:store={{close}}>
       <div class="flex sm:min-w-[60vw] sm:max-w-[90vw] flex-col sm:flex-row">
         <div class="sm:basis-1/4 flex items-center justify-center">
-          <div class="h-64 w-40 sm:w-56 sm:h-96 relative">
+          <div class="h-72 w-40 sm:w-56 sm:h-96 relative">
             <div class="bg-[url('$lib/cardFrame.png')] bg-center bg-no-repeat bg-[length:100%_100%] absolute h-full w-full z-10" />
             <img src={hiResImage(card.image)} alt={card.name} class="absolute h-full w-full rounded-lg"/>
             <div class="flex items-center w-full justify-center absolute sm:bottom-[-3rem] bottom-0 right-[-7rem] sm:right-0 z-30">
