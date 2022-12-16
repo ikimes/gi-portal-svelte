@@ -1,5 +1,5 @@
 <script>
-  import YunJin from '$lib/yunjin-look.webp';
+  import YunJin from '$lib/yunjin-look.png';
 </script>
 <div class="flex flex-wrap justify-center items-center h-full min-h-[95vh]">
   <img src={YunJin} alt="Yunjin look" />
